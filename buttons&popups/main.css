@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button{
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 21px;
+    font-weight: 500;
+    user-select: none;
+    padding: 10px 36px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+#button-cancel{
+    color: #fff;
+    background-color: #c82333;
+}
+
+#button-cancel:hover{
+    background-color: #dc3545;
+    transition: 1s;
+}
