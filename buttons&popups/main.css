@@ -1,27 +1,67 @@
+body {
+	overflow: hidden;
+}
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-.button{
-    cursor: pointer;
-    text-transform: capitalize;
-    font-size: 21px;
-    font-weight: 500;
-    user-select: none;
-    padding: 10px 36px;
-    margin: 0 10px;
-    border-radius: 5px;
+.button {
+	cursor: pointer;
+	text-transform: capitalize;
+	font-size: 21px;
+	font-weight: 500;
+	user-select: none;
+	padding: 12px 36px;
+	margin: 0 10px;
+	border-radius: 8px;
+	border: none;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	transition: background 750ms ease-in-out, transform 1s;
 }
 
-#button-cancel{
-    color: #fff;
-    background-color: #c82333;
+#button-cancel {
+	color: #fff;
+	background: #b31e2d;
 }
 
-#button-cancel:hover{
-    background-color: #dc3545;
-    transition: 1s;
+#button-cancel:hover {
+	background: #dc3545;
+}
+
+#button-accept {
+	color: #fff;
+	background: #0069d9;
+}
+
+#button-accept:hover {
+	background: #007bff;
+}
+
+.popup {
+	position: absolute;
+	right: -200px;
+	border: 5px solid rgb(26, 160, 200);
+	border-radius: 8px;
+	font-size: 22px;
+	width: 190px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 15px 20px;
+}
+
+.popup p {
+	margin: 0;
+}
+
+#popup-top {
+	top: 15px;
+}
+
+#popup-bottom {
+	bottom: 15px;
 }
