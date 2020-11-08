@@ -2,7 +2,7 @@ body {
 	overflow: hidden;
 }
 
-.container {
+#container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -51,11 +51,9 @@ body {
 	width: 190px;
 	box-sizing: border-box;
 	text-align: center;
-	padding: 15px 20px;
-}
-
-.popup p {
-	margin: 0;
+    padding: 15px 20px;
+    transition: 2s linear;
+    user-select: none;
 }
 
 #popup-top {
@@ -64,4 +62,9 @@ body {
 
 #popup-bottom {
 	bottom: 15px;
+}
+
+.show{
+    right: 18px;
+    transition:2s linear;
 }
