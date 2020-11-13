@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
-    <title>newsletter</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./main.css" />
+		<title>newsletter</title>
+	</head>
+	<body>
+		<div class="container">
+			<form action="post" class="newsletter">
+				<h3 class="header">free email newsletter</h3>
+				<p class="text">
+					Let About.com send you the latest from our Neurology Expert
+				</p>
+				<input type="checkbox" id="option1" name="option" />
+				<label for="option1" class="text"> Treatment Options </label>
+				<input type="checkbox" id="option2" name="option" />
+				<label for="option2" class="text">Specialty Information</label>
+
+				<input type="text" placeholder="Your email address" />
+				<div id="submit-bg">
+					<button id="submit">sign up</button>
+				</div>
+			</form>
+		</div>
+	</body>
 </html>
